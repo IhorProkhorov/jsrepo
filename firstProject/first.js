@@ -3,7 +3,7 @@
 const numberOfFilms = +prompt('Сколько фильмо вы уже посмтрели?', '');
 
 const personalMovieDB = {
-    const: numberOfFilms,
+    count: numberOfFilms,
     movies: {},
     actors: {},
     genres: [],
@@ -17,3 +17,5 @@ const a = prompt('Один из последних просмотренных ф
 
 personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
+
+console.log(personalMovieDB);
