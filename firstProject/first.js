@@ -1,7 +1,3 @@
-var number = 2;
-var str = 'Hello World';
-console.log(str * number);
+let numberOfFilms;
 
-
-let something = 5;
-console.log(something);
+numberOfFilms = prompt("Сколько фильмо вы уже посмтрели?", "2");
